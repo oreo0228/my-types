@@ -18,7 +18,7 @@
       "detail": "発信力・反応速度・こだわり・つながり、すべてが高水準のSNSオールラウンダー。完璧に仕上げたコンテンツをリアルタイムで世界に届け、フォロワーとの交流も欠かさない。\n\nコメントやDMにもすぐ対応し、投稿のクオリティとスピードを両立できるのはこのタイプだけ。SNSという舞台の上で、誰よりも華やかに輝く主役。\n\n一方で、すべてに全力を注ぐため、SNS疲れに陥りやすい面も。完璧を求めるあまり、オフラインの時間が削られがち。",
       "groupKey": "CR",
       "radar": { "expression": 5, "speed": 4, "commitment": 4, "connection": 5 },
-      "image": "/images/types/sns-brain-type/crpo.png"
+      "image": "/images/types/sns-brain-type/crpo.webp"
     },
     {
       "id": 2,
@@ -31,7 +31,7 @@
       "detail": "日常のあらゆる瞬間を即座にシェアする生配信型。加工やこだわりよりスピードを重視し、ストーリーは常に連投状態。「今これ食べてる」「電車遅延なう」と、誰にでもオープンに日常を中継する。\n\n気づけば1日20件以上投稿していることも。タップしても終わらないストーリーに友人は震えているが、本人はまったく気にしない自由さがある。\n\nただし量が多い分、1つ1つの投稿への反応が薄くなりがち。「また投稿してる」と流されることもあるが、本人にとってはシェアすること自体が目的。",
       "groupKey": "CR",
       "radar": { "expression": 5, "speed": 5, "commitment": 1, "connection": 5 },
-      "image": "/images/types/sns-brain-type/crlo.png"
+      "image": "/images/types/sns-brain-type/crlo.webp"
     },
     {
       "id": 3,
@@ -44,7 +44,7 @@
       "detail": "発信にも反応にも全力だが、見せる相手は厳選するタイプ。「親しい友達」リストの管理に命をかけ、完璧に仕上げた投稿を限られた観客にだけ届ける。\n\n公開範囲の設定は毎回変え、「この投稿はAグループには見せるけどBには見せない」という緻密な運用はお手のもの。裏方で全てをコントロールする演出家気質。\n\nその管理能力は圧倒的だが、公開範囲の設定に時間をかけすぎて投稿自体が遅れることも。誰に何を見せたかを常に意識する繊細さは、ときに疲労の原因にもなる。",
       "groupKey": "CR",
       "radar": { "expression": 4, "speed": 4, "commitment": 5, "connection": 1 },
-      "image": "/images/types/sns-brain-type/crpx.png"
+      "image": "/images/types/sns-brain-type/crpx.webp"
     },
     {
       "id": 4,
@@ -57,7 +57,7 @@
       "detail": "親しい人にだけ、加工なしの日常を怒涛の勢いで送りつけるタイプ。「ねえ」「見て」「これ」と短文連投が止まらない。グループLINEも自分のタイムライン感覚で使う。\n\n追いLINEは日常で、通知欄が自分の名前で埋まるのは友人の間では恒例行事。オープンな場では発信しないが、身内への発信量は桁違い。\n\nただし相手のペースを無視しがちなのが弱点。「返信待ってるんだけど」と思いつつも、自分が送りたいから送る。距離感ゼロの愛情表現。",
       "groupKey": "CR",
       "radar": { "expression": 5, "speed": 5, "commitment": 1, "connection": 1 },
-      "image": "/images/types/sns-brain-type/crlx.png"
+      "image": "/images/types/sns-brain-type/crlx.webp"
     },
     {
       "id": 5,
@@ -70,7 +70,7 @@
       "detail": "発信はするが、自分のペースで完璧に仕上げてから世に出すタイプ。投稿の色味、構図、キャプション、すべてに妥協なし。返信は遅くても投稿のクオリティは圧倒的。\n\nフィードは美術館のキュレーションレベルで統一され、オープンに広く公開するからこそ、そのクオリティへのこだわりは一層強い。\n\nただし完璧を追求するあまり、投稿頻度は極端に低い。「いいね」が少ない投稿は即アーカイブという潔さも持つ。",
       "groupKey": "CM",
       "radar": { "expression": 4, "speed": 1, "commitment": 5, "connection": 5 },
-      "image": "/images/types/sns-brain-type/cmpo.png"
+      "image": "/images/types/sns-brain-type/cmpo.webp"
     },
     {
       "id": 6,
@@ -83,7 +83,7 @@
       "detail": "SNSに縛られない自由なスタイルの持ち主。投稿するときはするが、しないときは数週間放置。加工もこだわらず、気分で投稿して気分で消す。\n\n公開アカウントで誰でも見られる状態にしているが、フォロワー数や反応は気にしない。返信もマイペースで、誰かのペースに合わせることはない。\n\nSNSとのゆるい距離感が心地よく、気負わない自然体の投稿が逆に魅力的。ただし「SNSやってるの？」と聞かれるくらい存在感が薄いことも。",
       "groupKey": "CM",
       "radar": { "expression": 4, "speed": 2, "commitment": 1, "connection": 4 },
-      "image": "/images/types/sns-brain-type/cmlo.png"
+      "image": "/images/types/sns-brain-type/cmlo.webp"
     },
     {
       "id": 7,
@@ -96,7 +96,7 @@
       "detail": "本垢は放置気味で、真の創作活動は鍵垢で行うタイプ。時間をかけて練り上げた投稿を、選ばれた少数のフォロワーにだけ届ける。\n\n自分だけのアトリエで作品を仕上げる職人のように、見せる相手も内容も厳選。裏垢のフォロワーだけがリアルなあなたを知っている。\n\nクオリティは高いが、世に出ることを選ばないため、その才能が広く知られることはない。本人はそれで満足しているのが、このタイプの美学。",
       "groupKey": "CM",
       "radar": { "expression": 4, "speed": 1, "commitment": 5, "connection": 1 },
-      "image": "/images/types/sns-brain-type/cmpx.png"
+      "image": "/images/types/sns-brain-type/cmpx.webp"
     },
     {
       "id": 8,
@@ -109,7 +109,7 @@
       "detail": "深夜に突然、親しい友達だけに向けて本音を吐き出すタイプ。加工なし、推敲なし、思ったことをそのまま。まるで深夜ラジオのように、限られたリスナーだけが聞ける本音トーク。\n\n普段は短文しか送らないのに、深夜になると人生観や友情論の長文が止まらない。自分のタイミングでしか発信しないが、そのときの熱量は誰にも負けない。\n\n翌朝「昨日のは忘れて」がお決まり。衝動的な発信だからこそ、後から恥ずかしくなるのもこのタイプの特徴。",
       "groupKey": "CM",
       "radar": { "expression": 3, "speed": 1, "commitment": 2, "connection": 1 },
-      "image": "/images/types/sns-brain-type/cmlx.png"
+      "image": "/images/types/sns-brain-type/cmlx.webp"
     },
     {
       "id": 9,
@@ -122,7 +122,7 @@
       "detail": "自分では投稿しないが、他人の投稿への反応は一級品のタイプ。誰かが投稿すればすぐに気づき、的確なコメントやセンスのいいいいねで存在感を示す。\n\n質の良い投稿を見抜く目利き力は誰にも負けない。幅広いアカウントをフォローし、ジャンルを問わず良いものには即座に反応する鑑定眼の持ち主。\n\nただし自分から発信することはほぼないため、「いつも見てるけど何を考えてるかわからない」と思われがち。反応の質で信頼を得る、縁の下の存在。",
       "groupKey": "WR",
       "radar": { "expression": 1, "speed": 5, "commitment": 4, "connection": 5 },
-      "image": "/images/types/sns-brain-type/wrpo.png"
+      "image": "/images/types/sns-brain-type/wrpo.webp"
     },
     {
       "id": 10,
@@ -135,7 +135,7 @@
       "detail": "投稿はしないが、タイムラインのお祭りには必ず参加するタイプ。トレンドや友達の投稿にすかさずいいね・リアクション。細かいことは気にしないが、反応速度は最速級。\n\nグループLINEでは率先してリアクションする盛り上げ役。誰の投稿にも分け隔てなく反応するオープンさがあり、SNSのムードメーカーとして欠かせない存在。\n\nただしリアクションの内容は軽め。「いいね」とスタンプが中心で、深いコメントは苦手。でもその気軽さが、場の空気を明るくしている。",
       "groupKey": "WR",
       "radar": { "expression": 1, "speed": 5, "commitment": 1, "connection": 5 },
-      "image": "/images/types/sns-brain-type/wrlo.png"
+      "image": "/images/types/sns-brain-type/wrlo.webp"
     },
     {
       "id": 11,
@@ -148,7 +148,7 @@
       "detail": "親しい友達の投稿やメッセージには誰より早く、誰より丁寧に反応するタイプ。自分では投稿しないが、グループ内での存在感は抜群。\n\n悩み相談にはすぐ長文で応え、近況報告には的確なコメントを添える。広い範囲には関わらないが、大切な人へのサポートは惜しまない。\n\nただし知らない人やあまり親しくない人の投稿にはほぼ無反応。その落差に驚かれることもあるが、本人にとっては当然の線引き。",
       "groupKey": "WR",
       "radar": { "expression": 1, "speed": 5, "commitment": 4, "connection": 1 },
-      "image": "/images/types/sns-brain-type/wrpx.png"
+      "image": "/images/types/sns-brain-type/wrpx.webp"
     },
     {
       "id": 12,
@@ -161,7 +161,7 @@
       "detail": "反応は早いが、返すのはスタンプ1個か一言のタイプ。それでいて会話を見事に着地させる職人芸の持ち主。長文には短文、熱意にはスタンプ。\n\n身内の会話にだけ顔を出し、広いSNSの場ではほぼ存在感ゼロ。親しい人のグループLINEだけが活動領域で、それ以外の通知は基本スルー。\n\n会話のクローザーとしては超一流。どんな会話も一言でまとめ上げるセンスに、友人たちは諦め半分、尊敬半分。",
       "groupKey": "WR",
       "radar": { "expression": 1, "speed": 4, "commitment": 1, "connection": 1 },
-      "image": "/images/types/sns-brain-type/wrlx.png"
+      "image": "/images/types/sns-brain-type/wrlx.webp"
     },
     {
       "id": 13,
@@ -174,7 +174,7 @@
       "detail": "投稿ゼロ、返信も遅い。しかし保存欄は宝の山のタイプ。おしゃれカフェ、旅行先、レシピ、コーデ...ジャンルを問わず広い範囲から気になる投稿をカテゴリ分けして大量にコレクションする。\n\nフォローするアカウントも多岐にわたり、オープンに幅広い情報を吸収する。情報収集と整理にかけるこだわりは誰にも負けない。\n\n「いつか行く」「いつか作る」のいつかは来ないが、保存する行為自体が幸福。コレクションの量と精度に、本人だけが満足している。",
       "groupKey": "WM",
       "radar": { "expression": 1, "speed": 1, "commitment": 5, "connection": 4 },
-      "image": "/images/types/sns-brain-type/wmpo.png"
+      "image": "/images/types/sns-brain-type/wmpo.webp"
     },
     {
       "id": 14,
@@ -187,7 +187,7 @@
       "detail": "「ちょっとだけ見よう」と思ってSNSを開き、気づけば2時間が経過しているタイプ。おすすめアルゴリズムに完全に支配され、猫動画→料理動画→あるある動画の無限ループ。\n\n投稿もしない、返信も遅い、こだわりもない。ジャンルを問わず流れてくるコンテンツをオープンに受け入れ、ただアルゴリズムの海をゆるく漂う。\n\n「もうこんな時間!?」が毎日の口癖。時間の使い方としては非効率だが、本人は意外と満足している。",
       "groupKey": "WM",
       "radar": { "expression": 2, "speed": 1, "commitment": 1, "connection": 3 },
-      "image": "/images/types/sns-brain-type/wmlo.png"
+      "image": "/images/types/sns-brain-type/wmlo.webp"
     },
     {
       "id": 15,
@@ -200,7 +200,7 @@
       "detail": "アカウントの投稿数は0。フォローする相手は厳選し、その限られた範囲の動向を正確に把握しているタイプ。いいねもコメントもしないが、見ている人のことはすべてわかっている。\n\n「〇〇と△△が一緒にいたよね？」という情報を誰よりも正確にキャッチ。広い範囲には関わらないが、観察対象への情報精度は最強。\n\n自分のペースで、自分が気になる人だけを静かに見守る。その存在に気づかれることすらないのが、このタイプの真骨頂。",
       "groupKey": "WM",
       "radar": { "expression": 1, "speed": 2, "commitment": 4, "connection": 1 },
-      "image": "/images/types/sns-brain-type/wmpx.png"
+      "image": "/images/types/sns-brain-type/wmpx.webp"
     },
     {
       "id": 16,
@@ -213,7 +213,7 @@
       "detail": "すべてのSNS通知をオフにしている悟りの境地の住人。LINEもインスタも自分が見たいときにしか開かない。返信は数日後、投稿は年に一度あるかないか。\n\n「急用なら電話して」がモットー。SNSに振り回されることなく自分のペースで生きる、現代のデジタル仙人。\n\n周囲からは「生きてる？」と心配されることもあるが、本人はいたって快適。SNSなしでも人間関係は成り立つことを体現している。",
       "groupKey": "WM",
       "radar": { "expression": 1, "speed": 1, "commitment": 1, "connection": 1 },
-      "image": "/images/types/sns-brain-type/wmlx.png"
+      "image": "/images/types/sns-brain-type/wmlx.webp"
     }
   ]
 }

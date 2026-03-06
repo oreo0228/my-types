@@ -44,7 +44,7 @@ export default function ResultCard({
             </p>
           )}
           {type.image ? (
-            <div className="w-28 h-28 mx-auto mb-3">
+            <div className="w-40 h-40 sm:w-48 sm:h-48 mx-auto mb-3">
               <img
                 src={type.image}
                 alt={type.name}
