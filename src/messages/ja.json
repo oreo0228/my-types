@@ -19,7 +19,9 @@
     "duration": "約{duration}{unit}",
     "tryThis": "この診断をやってみる →",
     "tryDiagnose": "診断する →",
-    "comingSoon": "Coming Soon"
+    "comingSoon": "Coming Soon",
+    "prevSlide": "前の診断",
+    "nextSlide": "次の診断"
   },
   "diagnostic": {
     "intro": "あなたのタイプを{count}タイプに分類！",
@@ -60,6 +62,13 @@
       "line": "LINE",
       "sns-general": "SNS全般",
       "situation": "シチュエーション"
+    },
+    "spectrum": {
+      "stronglyAgree": "そう思う",
+      "somewhatAgree": "ややそう思う",
+      "neutral": "どちらでもない",
+      "somewhatDisagree": "あまりそう思わない",
+      "stronglyDisagree": "そう思わない"
     }
   },
   "diagnostics": {

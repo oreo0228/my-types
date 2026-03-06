@@ -14,7 +14,13 @@ export default function ProgressBar({ current, total }: ProgressBarProps) {
         <span>Q{current} / {total}</span>
         <span>{Math.round(percentage)}%</span>
       </div>
-      <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden">
+      <div
+        className="w-full h-2 bg-gray-200 rounded-full overflow-hidden"
+        role="progressbar"
+        aria-valuenow={Math.round(percentage)}
+        aria-valuemin={0}
+        aria-valuemax={100}
+      >
         <div
           className="h-full bg-gradient-to-r from-pink-500 to-purple-500 rounded-full transition-all duration-500 ease-out"
           style={{ width: `${percentage}%` }}

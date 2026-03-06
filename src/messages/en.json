@@ -19,7 +19,9 @@
     "duration": "~{duration}{unit}",
     "tryThis": "Try this →",
     "tryDiagnose": "Diagnose →",
-    "comingSoon": "Coming Soon"
+    "comingSoon": "Coming Soon",
+    "prevSlide": "Previous",
+    "nextSlide": "Next"
   },
   "diagnostic": {
     "intro": "Classify your type into {count} types!",
@@ -60,6 +62,13 @@
       "line": "LINE",
       "sns-general": "SNS General",
       "situation": "Situation"
+    },
+    "spectrum": {
+      "stronglyAgree": "Strongly agree",
+      "somewhatAgree": "Somewhat agree",
+      "neutral": "Neutral",
+      "somewhatDisagree": "Somewhat disagree",
+      "stronglyDisagree": "Strongly disagree"
     }
   },
   "diagnostics": {

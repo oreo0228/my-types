@@ -17,6 +17,7 @@ export default function CharacterBanner({ images }: CharacterBannerProps) {
             key={i}
             src={src}
             alt=""
+            aria-hidden="true"
             className="w-24 h-24 object-contain shrink-0"
           />
         ))}

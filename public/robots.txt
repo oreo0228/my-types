@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Disallow: /preview/
+
+Sitemap: https://my-types.pages.dev/sitemap.xml

@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import type { SpectrumQuestion } from "@/engine/types";
 
 interface SpectrumInputProps {
@@ -22,11 +23,12 @@ const buttonSizes = [
 export default function SpectrumInput({
   question,
   axisLabel,
-  highLabel = "そう思う",
-  lowLabel = "思わない",
+  highLabel,
+  lowLabel,
   onAnswer,
   isAnimating,
 }: SpectrumInputProps) {
+  const t = useTranslations("quiz.spectrum");
   return (
     <div
       className={`w-full max-w-lg mx-auto transition-all duration-300 ${
@@ -45,8 +47,8 @@ export default function SpectrumInput({
         </h2>
 
         <div className="flex items-center justify-between px-1 mb-3">
-          <span className="text-xs font-bold text-pink-400 shrink-0">{highLabel}</span>
-          <span className="text-xs font-bold text-purple-400 shrink-0">{lowLabel}</span>
+          <span className="text-xs font-bold text-pink-400 shrink-0">{highLabel ?? t("stronglyAgree")}</span>
+          <span className="text-xs font-bold text-purple-400 shrink-0">{lowLabel ?? t("stronglyDisagree")}</span>
         </div>
         <div className="flex items-center justify-center gap-3 sm:gap-4">
           {([1, 2, 3, 4, 5] as const).map((value, i) => (
@@ -62,14 +64,14 @@ export default function SpectrumInput({
               }`}
               aria-label={
                 value === 1
-                  ? "そう思う"
+                  ? t("stronglyAgree")
                   : value === 2
-                    ? "ややそう思う"
+                    ? t("somewhatAgree")
                     : value === 3
-                      ? "どちらでもない"
+                      ? t("neutral")
                       : value === 4
-                        ? "あまりそう思わない"
-                        : "そう思わない"
+                        ? t("somewhatDisagree")
+                        : t("stronglyDisagree")
               }
             />
           ))}

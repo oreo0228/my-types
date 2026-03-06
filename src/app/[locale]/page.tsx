@@ -100,7 +100,7 @@ export default function HomePage() {
             {feat.comingSoon ? (
               <div className="group grid grid-cols-1 sm:grid-cols-2 gap-0 bg-white border border-gray-200 opacity-70 cursor-default">
                 <div className="aspect-video sm:aspect-auto overflow-hidden relative">
-                  <img src={feat.image} alt="" className="w-full h-full object-cover grayscale" />
+                  <img src={feat.image} alt={feat.title} className="w-full h-full object-cover grayscale" />
                   <span className="absolute top-0 left-0 bg-red-500 text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center">{selected + 1}</span>
                   <span className="absolute top-0 right-0 bg-gray-500 text-white text-[9px] font-bold px-1.5 py-0.5">{t("home.comingSoon")}</span>
                 </div>
@@ -116,7 +116,7 @@ export default function HomePage() {
             ) : (
               <Link href={feat.href} className="group grid grid-cols-1 sm:grid-cols-2 gap-0 bg-white border border-gray-200 hover:border-orange-300 transition-colors">
                 <div className="aspect-video sm:aspect-auto overflow-hidden relative">
-                  <img src={feat.image} alt="" className="w-full h-full object-cover" />
+                  <img src={feat.image} alt={feat.title} className="w-full h-full object-cover" />
                   <span className="absolute top-0 left-0 bg-red-500 text-white text-[10px] font-bold w-6 h-6 flex items-center justify-center">{selected + 1}</span>
                   {feat.isNew && <span className="absolute top-0 right-0 bg-orange-500 text-white text-[9px] font-bold px-1.5 py-0.5">{newBadge}</span>}
                 </div>
@@ -132,8 +132,8 @@ export default function HomePage() {
               </Link>
             )}
           </div>
-          <button onClick={prev} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 flex items-center justify-center bg-white border border-gray-300 text-gray-500 hover:border-orange-400 hover:text-orange-500 shadow-sm transition-colors z-10">←</button>
-          <button onClick={next} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-8 h-8 flex items-center justify-center bg-white border border-gray-300 text-gray-500 hover:border-orange-400 hover:text-orange-500 shadow-sm transition-colors z-10">→</button>
+          <button onClick={prev} aria-label={t("home.prevSlide")} className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-1/2 w-8 h-8 flex items-center justify-center bg-white border border-gray-300 text-gray-500 hover:border-orange-400 hover:text-orange-500 shadow-sm transition-colors z-10">←</button>
+          <button onClick={next} aria-label={t("home.nextSlide")} className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-1/2 w-8 h-8 flex items-center justify-center bg-white border border-gray-300 text-gray-500 hover:border-orange-400 hover:text-orange-500 shadow-sm transition-colors z-10">→</button>
         </div>
       </section>
 
@@ -143,7 +143,7 @@ export default function HomePage() {
           {popular.map((c, i) => (
             <button key={c.title} onClick={() => goTo(i)} className={`group text-left bg-white border transition-colors ${i === selected ? "border-orange-400 ring-1 ring-orange-300" : "border-gray-200 hover:border-orange-300"}`}>
               <div className="aspect-video overflow-hidden relative">
-                <img src={c.image} alt="" className="w-full h-full object-cover" />
+                <img src={c.image} alt={c.title} className="w-full h-full object-cover" />
                 <span className="absolute top-0 left-0 bg-red-500 text-white text-[9px] font-bold w-4 h-4 flex items-center justify-center">{i + 1}</span>
                 {c.isNew && <span className="absolute top-0 right-0 bg-orange-500 text-white text-[8px] font-bold px-1 py-0.5">{newBadge}</span>}
               </div>
@@ -164,7 +164,7 @@ export default function HomePage() {
             c.comingSoon ? (
               <div key={i} className="bg-white border border-gray-200 opacity-60">
                 <div className="aspect-video overflow-hidden relative">
-                  <img src={c.image} alt="" className="w-full h-full object-cover grayscale" />
+                  <img src={c.image} alt={c.title} className="w-full h-full object-cover grayscale" />
                   <span className="absolute top-0 right-0 bg-gray-500 text-white text-[8px] font-bold px-1 py-0.5">{t("home.comingSoon")}</span>
                 </div>
                 <div className="p-3">
@@ -179,7 +179,7 @@ export default function HomePage() {
             ) : (
               <Link key={i} href={c.href} className="group bg-white border border-gray-200 hover:border-orange-300 transition-colors">
                 <div className="aspect-video overflow-hidden relative">
-                  <img src={c.image} alt="" className="w-full h-full object-cover" />
+                  <img src={c.image} alt={c.title} className="w-full h-full object-cover" />
                   {c.isNew && <span className="absolute top-0 right-0 bg-orange-500 text-white text-[8px] font-bold px-1 py-0.5">{newBadge}</span>}
                 </div>
                 <div className="p-3">
