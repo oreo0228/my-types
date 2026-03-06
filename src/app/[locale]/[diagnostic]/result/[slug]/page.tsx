@@ -39,6 +39,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     openGraph: {
       title: `私の${config.meta.title}は「${type.name}」！`,
       description: type.description,
+      type: "article",
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `私の${config.meta.title}は「${type.name}」！`,
+      description: type.description,
     },
   };
 }

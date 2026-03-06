@@ -48,14 +48,14 @@ export default async function TypesPage({ params }: Props) {
         </div>
 
         {/* Group Sections */}
-        <div className="space-y-10 mb-12">
+        <div className="space-y-8 mb-12">
           {groups.map((group) => {
             const groupTypes = types.filter((t) => t.groupKey === group.key);
             if (groupTypes.length === 0) return null;
 
             return (
               <section key={group.key}>
-                <div className="flex items-center gap-2 mb-2">
+                <div className="flex items-center gap-2 mb-3">
                   <span className="text-xl">{group.emoji}</span>
                   <span
                     className="inline-block px-3 py-1 rounded-full text-sm font-bold text-white"
@@ -64,45 +64,28 @@ export default async function TypesPage({ params }: Props) {
                     {group.label}
                   </span>
                 </div>
-                <p className="text-sm text-gray-500 mb-4 ml-8">
-                  {group.theme}
-                </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <div className="grid grid-cols-2 gap-2">
                   {groupTypes.map((type) => (
                     <Link
                       key={type.slug}
                       href={`/${diagnostic}/result/${type.slug}`}
-                      className="block bg-white rounded-xl p-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all border-l-4"
-                      style={{ borderLeftColor: group.color }}
+                      className="block text-center hover:-translate-y-1 transition-all"
                     >
-                      <div className="flex items-center gap-3">
-                        {type.image ? (
-                          <img
-                            src={type.image}
-                            alt={type.name}
-                            className="w-16 h-16 flex-shrink-0 object-contain"
-                          />
-                        ) : (
-                          <span className="text-2xl flex-shrink-0">
-                            {type.emoji}
-                          </span>
-                        )}
-                        <div className="min-w-0">
-                          <p className="font-bold text-gray-800 text-sm">
-                            {type.name}
-                          </p>
-                          <p
-                            className="text-xs font-mono"
-                            style={{ color: group.color }}
-                          >
-                            {type.code}
-                          </p>
-                          <p className="text-xs text-gray-500 mt-1 line-clamp-2">
-                            {type.description}
-                          </p>
+                      {type.image ? (
+                        <img
+                          src={type.image}
+                          alt={type.name}
+                          className="w-[70%] mx-auto object-contain"
+                        />
+                      ) : (
+                        <div className="w-full aspect-square flex items-center justify-center text-5xl">
+                          {type.emoji}
                         </div>
-                      </div>
+                      )}
+                      <p className="font-bold text-gray-800 text-base mt-2 leading-tight">
+                        {type.name}
+                      </p>
                     </Link>
                   ))}
                 </div>

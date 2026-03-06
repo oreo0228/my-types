@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { getAllDiagnosticSlugs, loadDiagnostic } from "@/engine/loader";
 import ShareButtons from "@/components/result/ShareButtons";
+import CharacterBanner from "@/components/CharacterBanner";
 
 interface Props {
   params: Promise<{ diagnostic: string }>;
@@ -21,6 +22,11 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${config.meta.title} | My Types`,
     description: config.meta.description,
+    openGraph: {
+      title: `${config.meta.title} | My Types`,
+      description: config.meta.description,
+      type: "website",
+    },
   };
 }
 
@@ -44,9 +50,16 @@ export default async function DiagnosticIntroPage({ params }: Props) {
           <p className="text-gray-600 mb-2 text-base sm:text-lg">
             {t("diagnostic.intro", { count: config.types.length })}
           </p>
-          <p className="text-gray-400 text-sm mb-8">
+          <p className="text-gray-400 text-sm mb-6">
             {t("diagnostic.questionInfo", { questionCount: meta.questionCount, duration: meta.duration })}
           </p>
+          {config.types.some((t) => t.image) && (
+            <div className="mb-8">
+              <CharacterBanner
+                images={config.types.filter((t) => t.image).map((t) => t.image!)}
+              />
+            </div>
+          )}
           <Link
             href={`/${diagnostic}/quiz`}
             className="block w-full text-center bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-4 rounded-2xl text-base font-bold shadow-lg hover:scale-105 active:scale-95 transition-transform"
@@ -54,35 +67,6 @@ export default async function DiagnosticIntroPage({ params }: Props) {
             {t("diagnostic.startQuiz")}
           </Link>
         </section>
-
-        {/* Groups */}
-        {groups.length > 0 && (
-          <section className="mb-8">
-            <h2 className="text-center text-lg font-bold text-gray-700 mb-4">
-              {t("diagnostic.groupsTitle", { count: groups.length })}
-            </h2>
-            <div className="grid grid-cols-2 gap-3 text-sm">
-              {groups.map((group) => (
-                <div
-                  key={group.key}
-                  className="bg-white rounded-xl p-4 shadow-sm"
-                >
-                  <div className="text-2xl mb-1">{group.emoji}</div>
-                  <p className="font-medium" style={{ color: group.color }}>
-                    {group.label}
-                  </p>
-                  <p className="text-gray-400 text-xs">{group.theme}</p>
-                  <p
-                    className="text-[10px] mt-1 font-medium"
-                    style={{ color: `${group.color}99` }}
-                  >
-                    {t("diagnostic.typeCountLabel", { count: group.typeCount })}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
 
         {/* Types link */}
         <section className="mb-12 text-center">
@@ -105,15 +89,6 @@ export default async function DiagnosticIntroPage({ params }: Props) {
           </div>
         </section>
 
-        {/* Bottom CTA */}
-        <section className="text-center">
-          <Link
-            href={`/${diagnostic}/quiz`}
-            className="block w-full text-center bg-gradient-to-r from-pink-500 to-purple-600 text-white px-8 py-4 rounded-2xl text-base font-bold shadow-lg hover:scale-105 active:scale-95 transition-transform"
-          >
-            {t("diagnostic.startQuiz")}
-          </Link>
-        </section>
       </div>
     </main>
   );
