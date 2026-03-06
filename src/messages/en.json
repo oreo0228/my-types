@@ -1,0 +1,157 @@
+{
+  "common": {
+    "siteName": "My Types",
+    "siteDescription": "Discover your true type",
+    "language": "EN",
+    "switchLanguage": "JA"
+  },
+  "home": {
+    "heroTitle": "My Types",
+    "heroSubtitle": "Discover your true type",
+    "diagnosticsTitle": "Diagnostics",
+    "popularTitle": "Popular",
+    "allTitle": "All Diagnostics",
+    "newBadge": "NEW",
+    "playCount": "{count} plays",
+    "minutesLabel": "min",
+    "rankLabel": "",
+    "playCountShort": "{count}",
+    "duration": "~{duration}{unit}",
+    "tryThis": "Try this →",
+    "tryDiagnose": "Diagnose →",
+    "comingSoon": "Coming Soon"
+  },
+  "diagnostic": {
+    "intro": "Classify your type into {count} types!",
+    "questionInfo": "{questionCount} questions · ~{duration} min",
+    "startQuiz": "Start Quiz",
+    "groupsTitle": "{count} Groups",
+    "typeCountLabel": "{count} types",
+    "viewAllTypes": "View all {count} types →",
+    "shareHeading": "Take the quiz with friends",
+    "shareSubtext": "Share the quiz page and discover your friends' types!",
+    "shareIntro": "Discover your type with {title}! Try it with friends"
+  },
+  "result": {
+    "yourTypeIs": "Your {title} is...",
+    "resultLabel": "{title} - Result",
+    "parameters": "Your Parameters",
+    "retake": "Take Again",
+    "backToTop": "Back to Top",
+    "shareHeading": "Share your result",
+    "shareText": "My {title} is \"{typeName}\"!\n{description}\n\n#{hashtag} #MyTypes"
+  },
+  "types": {
+    "pageTitle": "{title} - All {count} Types",
+    "backToDiagnostic": "← Back to quiz",
+    "ctaTitle": "Which type are you?",
+    "ctaDescription": "Answer {questionCount} questions to find your type"
+  },
+  "share": {
+    "twitter": "Share on 𝕏",
+    "line": "Share on LINE",
+    "copyLink": "Copy Link",
+    "copied": "Copied!",
+    "copyFailed": "Failed to copy"
+  },
+  "quiz": {
+    "categories": {
+      "instagram": "Instagram",
+      "line": "LINE",
+      "sns-general": "SNS General",
+      "situation": "Situation"
+    }
+  },
+  "diagnostics": {
+    "snsBrainType": {
+      "title": "SNS Brain Type",
+      "description": "Discover your SNS brain type from 16 personality types based on how you use social media.",
+      "duration": "3"
+    },
+    "loveLanguage": {
+      "title": "Love Language Type",
+      "description": "Analyze your behavior patterns in romance. Do you confess first or wait? Discover your love style.",
+      "duration": "5"
+    },
+    "commStyle": {
+      "title": "Communication Style",
+      "description": "Diagnose your conversation habits and social style. Good listener or great talker? Find out.",
+      "duration": "3"
+    },
+    "oshiKatsu": {
+      "title": "Fan Activity Type",
+      "description": "Your fandom style reveals your personality! Merch collector? Event goer? Evangelist? Find your type.",
+      "duration": "4"
+    },
+    "stressType": {
+      "title": "Stress Battery Type",
+      "description": "Analyze your stress tolerance and energy recovery. What charges you up, and what drains you?",
+      "duration": "3"
+    },
+    "nightMorning": {
+      "title": "Night Owl or Early Bird",
+      "description": "Are you truly a night person, morning person, or somewhere in between? Find your peak focus time.",
+      "duration": "2"
+    },
+    "moneySense": {
+      "title": "Money Sense Type",
+      "description": "Saver? Investor? Splurger? Discover the values and personality behind your spending habits.",
+      "duration": "4"
+    },
+    "travelStyle": {
+      "title": "Travel Style Type",
+      "description": "Detailed planner or spontaneous explorer? Classify your travel psychology into 16 types.",
+      "duration": "3"
+    },
+    "leaderType": {
+      "title": "Leadership Type",
+      "description": "Lead from the front or support from behind? Analyze your team role and leadership style.",
+      "duration": "5"
+    },
+    "studyType": {
+      "title": "Study Style Type",
+      "description": "What's the best way for you to study? Memorizer, analyzer, or hands-on learner? Find out.",
+      "duration": "3"
+    },
+    "petMatch": {
+      "title": "Your Spirit Animal",
+      "description": "Based on your personality and habits, which animal are you most like? The result may surprise you.",
+      "duration": "2"
+    },
+    "foodPersonality": {
+      "title": "Food Personality",
+      "description": "Your food preferences reveal your hidden psychology. Sweet tooth? Spice lover? Or something else?",
+      "duration": "3"
+    },
+    "workStyle": {
+      "title": "Work Style Type",
+      "description": "Remote or office? Your ideal work style and professional approach classified into 16 types.",
+      "duration": "4"
+    },
+    "musicSoul": {
+      "title": "Music Soul Type",
+      "description": "How you listen to and enjoy music reveals your hidden personality and sensibility type.",
+      "duration": "3"
+    },
+    "friendshipType": {
+      "title": "Friendship Style",
+      "description": "Wide and shallow, or narrow and deep? Analyze your friendship patterns and social tendencies.",
+      "duration": "3"
+    },
+    "sleepAnimal": {
+      "title": "Sleep Animal Type",
+      "description": "What animal matches your sleep pattern? A comprehensive look at how you fall asleep and wake up.",
+      "duration": "2"
+    },
+    "angerType": {
+      "title": "Anger Trigger Type",
+      "description": "What makes you angry and how do you express it? Understand your anger patterns.",
+      "duration": "3"
+    },
+    "creativeType": {
+      "title": "Creative Brain Type",
+      "description": "What kind of creative are you? Logical or intuitive? Discover the source of your inspiration.",
+      "duration": "4"
+    }
+  }
+}

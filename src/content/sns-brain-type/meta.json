@@ -1,0 +1,12 @@
+{
+  "slug": "sns-brain-type",
+  "title": "SNS脳タイプ診断",
+  "description": "あなたのSNS脳タイプを16タイプに分類！32問の質問に答えて、自分のSNSとの向き合い方を診断しよう。",
+  "questionCount": 32,
+  "duration": "3",
+  "quizModes": ["spectrum", "choice"],
+  "defaultMode": "spectrum",
+  "theme": {
+    "gradient": ["#ec4899", "#9333ea"]
+  }
+}

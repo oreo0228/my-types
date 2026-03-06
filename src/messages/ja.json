@@ -1,0 +1,157 @@
+{
+  "common": {
+    "siteName": "My Types",
+    "siteDescription": "あなたの本当のタイプを診断しよう",
+    "language": "JA",
+    "switchLanguage": "EN"
+  },
+  "home": {
+    "heroTitle": "My Types",
+    "heroSubtitle": "あなたの本当のタイプを診断しよう",
+    "diagnosticsTitle": "診断一覧",
+    "popularTitle": "人気の診断",
+    "allTitle": "すべての診断",
+    "newBadge": "NEW",
+    "playCount": "{count}人が診断",
+    "minutesLabel": "分",
+    "rankLabel": "位",
+    "playCountShort": "{count}人",
+    "duration": "約{duration}{unit}",
+    "tryThis": "この診断をやってみる →",
+    "tryDiagnose": "診断する →",
+    "comingSoon": "Coming Soon"
+  },
+  "diagnostic": {
+    "intro": "あなたのタイプを{count}タイプに分類！",
+    "questionInfo": "全{questionCount}問・約{duration}分",
+    "startQuiz": "診断スタート",
+    "groupsTitle": "{count}つのグループ",
+    "typeCountLabel": "{count}タイプ",
+    "viewAllTypes": "全{count}タイプを見る →",
+    "shareHeading": "友達と一緒に診断しよう",
+    "shareSubtext": "診断ページをシェアして、友達のタイプも知ろう！",
+    "shareIntro": "{title}であなたのタイプを診断！友達と一緒にやってみよう"
+  },
+  "result": {
+    "yourTypeIs": "あなたの{title}は...",
+    "resultLabel": "{title} - 結果",
+    "parameters": "あなたのパラメータ",
+    "retake": "もう一度診断する",
+    "backToTop": "トップに戻る",
+    "shareHeading": "結果をシェアしよう",
+    "shareText": "私の{title}は「{typeName}」でした！\n{description}\n\n#{hashtag} #MyTypes"
+  },
+  "types": {
+    "pageTitle": "{title} 全{count}タイプ一覧",
+    "backToDiagnostic": "← 診断トップに戻る",
+    "ctaTitle": "あなたはどのタイプ？",
+    "ctaDescription": "{questionCount}問の質問に答えて、あなたのタイプを診断しよう"
+  },
+  "share": {
+    "twitter": "𝕏 でシェア",
+    "line": "LINE でシェア",
+    "copyLink": "リンクをコピー",
+    "copied": "コピーしました！",
+    "copyFailed": "コピーに失敗しました"
+  },
+  "quiz": {
+    "categories": {
+      "instagram": "Instagram",
+      "line": "LINE",
+      "sns-general": "SNS全般",
+      "situation": "シチュエーション"
+    }
+  },
+  "diagnostics": {
+    "snsBrainType": {
+      "title": "SNS脳タイプ診断",
+      "description": "あなたのSNSの使い方から、16タイプの脳タイプに分類！自分のSNSとの向き合い方を知ろう。",
+      "duration": "3"
+    },
+    "loveLanguage": {
+      "title": "恋愛キャラ診断",
+      "description": "あなたの恋愛における行動パターンを分析。告白する派？待つ派？駆け引きの仕方も丸わかり。",
+      "duration": "5"
+    },
+    "commStyle": {
+      "title": "コミュ力タイプ診断",
+      "description": "会話のクセや人付き合いのスタイルを診断。聞き上手？話し上手？あなたのコミュ力の正体とは。",
+      "duration": "3"
+    },
+    "oshiKatsu": {
+      "title": "推し活タイプ診断",
+      "description": "推しへの愛の注ぎ方で性格がわかる！グッズ派？現場派？布教派？あなたの推し活スタイルを判定。",
+      "duration": "4"
+    },
+    "stressType": {
+      "title": "ストレス電池診断",
+      "description": "あなたのストレス耐性とエネルギー回復法を分析。どんな時に充電され、何に消耗するタイプ？",
+      "duration": "3"
+    },
+    "nightMorning": {
+      "title": "夜型/朝型診断",
+      "description": "本当のあなたは夜型？朝型？それとも昼型？生活リズムと集中力のピークを科学的に診断。",
+      "duration": "2"
+    },
+    "moneySense": {
+      "title": "金銭感覚タイプ診断",
+      "description": "貯金派？投資派？推しに全額？あなたのお金の使い方から見える価値観と性格タイプ。",
+      "duration": "4"
+    },
+    "travelStyle": {
+      "title": "旅スタイル診断",
+      "description": "計画ガチ勢？ノープラン派？あなたの旅のスタイルから見える深層心理を16タイプに分類。",
+      "duration": "3"
+    },
+    "leaderType": {
+      "title": "リーダーシップ診断",
+      "description": "引っ張る派？支える派？チームでのあなたの立ち位置とリーダーシップスタイルを分析。",
+      "duration": "5"
+    },
+    "studyType": {
+      "title": "勉強スタイル診断",
+      "description": "あなたに最適な勉強法は？暗記型？理解型？実践型？自分に合った学び方を見つけよう。",
+      "duration": "3"
+    },
+    "petMatch": {
+      "title": "あなたに似てる動物診断",
+      "description": "性格や行動パターンから、あなたに最も似ている動物を判定。意外な動物かも？",
+      "duration": "2"
+    },
+    "foodPersonality": {
+      "title": "食の好みで性格診断",
+      "description": "好きな食べ物の傾向であなたの深層心理が丸わかり。甘党？辛党？それとも…",
+      "duration": "3"
+    },
+    "workStyle": {
+      "title": "働き方タイプ診断",
+      "description": "リモート派？オフィス派？あなたの理想の働き方と仕事への向き合い方を16タイプに分類。",
+      "duration": "4"
+    },
+    "musicSoul": {
+      "title": "音楽魂タイプ診断",
+      "description": "あなたの音楽の聴き方・楽しみ方から、隠れた性格と感性のタイプを診断。",
+      "duration": "3"
+    },
+    "friendshipType": {
+      "title": "友情スタイル診断",
+      "description": "広く浅く？狭く深く？あなたの友達付き合いのスタイルから人間関係の傾向を分析。",
+      "duration": "3"
+    },
+    "sleepAnimal": {
+      "title": "睡眠アニマル診断",
+      "description": "あなたの睡眠パターンを動物に例えると？寝つき・寝起き・睡眠の質を総合診断。",
+      "duration": "2"
+    },
+    "angerType": {
+      "title": "怒りのツボ診断",
+      "description": "何に怒る？どう怒る？あなたの怒りのパターンと上手な付き合い方を分析。",
+      "duration": "3"
+    },
+    "creativeType": {
+      "title": "クリエイティブ脳診断",
+      "description": "あなたの創造性はどのタイプ？論理派？直感派？ひらめきの源泉を探ろう。",
+      "duration": "4"
+    }
+  }
+}

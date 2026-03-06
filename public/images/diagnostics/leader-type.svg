@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <defs>
+    <linearGradient id="g9" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#g9)" rx="0"/>
+  <polygon points="200,40 230,100 170,100" fill="white" opacity="0.1"/>
+  <circle cx="200" cy="140" r="40" fill="white" opacity="0.08"/>
+  <circle cx="80" cy="80" r="20" fill="white" opacity="0.1"/>
+  <circle cx="320" cy="180" r="30" fill="white" opacity="0.08"/>
+  <circle cx="100" cy="200" r="15" fill="white" opacity="0.06"/>
+  <text x="200" y="135" text-anchor="middle" font-size="52" fill="white">👑</text>
+</svg>

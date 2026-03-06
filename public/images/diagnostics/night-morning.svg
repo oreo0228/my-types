@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <defs>
+    <linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#4c1d95"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#g6)" rx="0"/>
+  <circle cx="120" cy="80" r="30" fill="white" opacity="0.1"/>
+  <circle cx="80" cy="60" r="3" fill="white" opacity="0.4"/>
+  <circle cx="150" cy="40" r="2" fill="white" opacity="0.3"/>
+  <circle cx="60" cy="120" r="2" fill="white" opacity="0.25"/>
+  <circle cx="180" cy="70" r="2" fill="white" opacity="0.35"/>
+  <circle cx="320" cy="140" r="45" fill="white" opacity="0.12"/>
+  <text x="200" y="135" text-anchor="middle" font-size="52" fill="white">🌙</text>
+</svg>

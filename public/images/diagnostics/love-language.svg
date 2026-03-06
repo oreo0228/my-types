@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 240">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="240" fill="url(#g2)" rx="0"/>
+  <circle cx="100" cy="60" r="40" fill="white" opacity="0.1"/>
+  <circle cx="320" cy="180" r="50" fill="white" opacity="0.08"/>
+  <circle cx="200" cy="200" r="25" fill="white" opacity="0.1"/>
+  <path d="M180 80 Q200 50 220 80 Q250 120 200 160 Q150 120 180 80Z" fill="white" opacity="0.15"/>
+  <text x="200" y="130" text-anchor="middle" font-size="52" fill="white">💘</text>
+</svg>
