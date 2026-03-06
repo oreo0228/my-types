@@ -14,7 +14,7 @@ export const DIAGNOSTICS: DiagnosticMeta[] = [
   {
     slug: "sns-brain-type",
     icon: "🧠",
-    image: "/images/diagnostics/sns-brain-type.svg",
+    image: "/images/diagnostics/sns-brain-type.png",
     titleKey: "diagnostics.snsBrainType.title",
     descriptionKey: "diagnostics.snsBrainType.description",
     durationKey: "diagnostics.snsBrainType.duration",

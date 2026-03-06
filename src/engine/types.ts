@@ -37,6 +37,7 @@ export interface ResultType {
   detail: string;
   groupKey: string;
   radar: Record<string, number>;
+  image?: string;
 }
 
 // ── Spectrum ──

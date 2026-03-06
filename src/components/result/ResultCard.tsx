@@ -43,9 +43,19 @@ export default function ResultCard({
               {t("result.yourTypeIs", { title: diagnosticTitle })}
             </p>
           )}
-          <div className="text-6xl mb-3">
-            {type.emoji}
-          </div>
+          {type.image ? (
+            <div className="w-28 h-28 mx-auto mb-3">
+              <img
+                src={type.image}
+                alt={type.name}
+                className="w-full h-full object-contain drop-shadow-lg"
+              />
+            </div>
+          ) : (
+            <div className="text-6xl mb-3">
+              {type.emoji}
+            </div>
+          )}
           <h1 className="text-2xl sm:text-3xl font-bold text-white mb-1">
             {type.name}
           </h1>
