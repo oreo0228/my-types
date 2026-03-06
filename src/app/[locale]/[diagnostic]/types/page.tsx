@@ -76,10 +76,18 @@ export default async function TypesPage({ params }: Props) {
                       className="block bg-white rounded-xl p-4 shadow-sm hover:shadow-md hover:-translate-y-0.5 transition-all border-l-4"
                       style={{ borderLeftColor: group.color }}
                     >
-                      <div className="flex items-start gap-3">
-                        <span className="text-2xl flex-shrink-0">
-                          {type.emoji}
-                        </span>
+                      <div className="flex items-center gap-3">
+                        {type.image ? (
+                          <img
+                            src={type.image}
+                            alt={type.name}
+                            className="w-16 h-16 flex-shrink-0 object-contain"
+                          />
+                        ) : (
+                          <span className="text-2xl flex-shrink-0">
+                            {type.emoji}
+                          </span>
+                        )}
                         <div className="min-w-0">
                           <p className="font-bold text-gray-800 text-sm">
                             {type.name}
